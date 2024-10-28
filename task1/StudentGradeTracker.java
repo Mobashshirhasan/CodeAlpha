@@ -19,7 +19,7 @@ class GradeTracker {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < numStudents; i++) {
-            System.out.print("Enter grade for student " + (i + 1) + ": ");
+            System.out.print("Enter grade for student" + (i + 1) + ": ");
             grades[i] = scanner.nextInt();
         }
 
