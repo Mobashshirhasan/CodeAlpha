@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BankApplication {
     private static Scanner scanner = new Scanner(System.in);
-    private static BankAccount bankAccount
+    private static BankAccount bankAccount;
 
     public static void main(String[] args) {
         System.out.println("Welcome to Simple Banking Application!");
