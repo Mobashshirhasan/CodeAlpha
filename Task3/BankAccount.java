@@ -23,7 +23,7 @@ package Task3;
 	    public void withdraw(double amount) {
 	        if (amount > 0 && amount <= balance) {
 	            balance -= amount;
-	            System.out.println("Withdrawal successful. Your new balance is: $" + balance);
+	            System.out.println("Withdrawal successful. Your new balance is : $" + balance);
 	        } else {
 	            System.out.println("Invalid amount or insufficient funds...");
 	        }
