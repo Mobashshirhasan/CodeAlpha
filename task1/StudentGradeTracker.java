@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class GradeTracker {
 
-    private int[] grades
+    private int[] grades;
     private int numStudents;
     private double average;
     private int highest;
