@@ -13,7 +13,7 @@ class GradeTracker {
     public GradeTracker(int numStudents) {
         this.numStudents = numStudents;
         grades = new int[numStudents];
-    }
+     }
 
     public void inputGrades() {
         Scanner scanner = new Scanner(System.in);
@@ -55,7 +55,7 @@ class GradeTracker {
         System.out.println("Lowest Grade: " + lowest);
     }
 
-    // Getter methods for accessing results from outside the class
+    //  Getter methods for accessing results from outside the class
     public double getAverage() {
         return average;
     }
