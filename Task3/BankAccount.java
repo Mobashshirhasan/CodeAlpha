@@ -3,7 +3,7 @@ package Task3;
 	public class BankAccount {
 	    private double balance;
 
-	    public BankAccount(double  initialBalance) {
+	    public BankAccount(double initialBalance) {
 	        this.balance = initialBalance;
 	    }
 
