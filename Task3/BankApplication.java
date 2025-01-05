@@ -9,7 +9,7 @@ public class BankApplication {
     public static void main(String[] args) {
         System.out.println("Welcome to Simple Banking Application!");
 
-        double initialBalance = 1000; // Initial balance for demonstration purposes
+        double initialBalance = 1000; //  Initial balance for demonstration purposes
         bankAccount = new BankAccount(initialBalance);
 
         while (true) {
