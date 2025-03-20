@@ -23,7 +23,7 @@ class GradeTracker {
             grades[i] = scanner.nextInt();
         }
 
-           // Close the scanner after input is complete
+     // Close the scanner after input is complete
         scanner.close();
     }
 
